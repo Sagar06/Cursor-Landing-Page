@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(31, 29, 28);
+  color: white;
+  width: 10;
+  margin: 30px;
+  /* padding-top: 80px; */
+}
+
+.navbar {
+  background-color: rgb(31, 29, 28);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.727);
+  padding: 15px;
+  text-decoration: none;
+  /* width: 10px;
+  margin: 2px; */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* background-color: rgb(31, 29, 28); */
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+.logo img {
+  width: 40px;
+  /* background-color: black; */
+  height: 40px;
+}
+div button {
+  /* background-color: black; */
+  color: black;
+  border-radius: 80px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: small;
+}
+.signin {
+  background-color: rgb(31, 29, 28);
+  color: white;
+  border-radius: 50px;
+  border-style: solid;
+  border-color: gray;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  /* border-radius: 5px; */
+}
+
+.signin:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+}
+
+div p {
+  font-size: xx-large;
+}
+.hero-section {
+  /* border: solid red; */
+  padding: 100px 20px;
+}
+.hero-image {
+  padding: 60px 10px;
+  /* height: 100px; */
+  /* width: 400%; */
+  /* height: auto; */
+}
